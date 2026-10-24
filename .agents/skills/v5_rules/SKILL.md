@@ -148,3 +148,12 @@ Toda resposta desta skill diante de um desafio mecânico deve entregar:
 2. **Dificuldade Justificada:** Nível numérico (1 a 5+) ancorado na situação ficcional.
 3. **Escalonamento de Margem:** O que acontece na Margem 0 (por um triz), Margem +1 (limpo) e Margem +2 (crítico).
 4. **Vetor da Besta:** Riscos de Cheque de Rouse, Falha Bestial ou Crítico Caótico aplicáveis à cena.
+
+---
+
+## 8. Referências Especializadas (Progressive Disclosure)
+
+Consulte os arquivos dedicados na subpasta `references/` sob demanda para tabelas enciclopédicas:
+* **Poderes e Disciplinas:** [`references/disciplinas.md`](references/disciplinas.md) — Ativação, paradas e custos de Rouse para Rapidez, Potência, Fortitude, Auspícios, Dominação, Presença, Ofuscação, Feitiçaria de Sangue e Alquimia.
+* **Frenesi e Caçada:** [`references/frenesi-e-predadores.md`](references/frenesi-e-predadores.md) — Dificuldades de resistência para Fúria, Terror (Rötschreck) e Fome; tipos de predador (Alleycat, Siren, Sandman, etc.).
+* **Armamento & Balística:** [`references/armas-e-conflito.md`](references/armas-e-conflito.md) — Estatísticas de armas de época (1936: Mauser, Winchester, facões, garruchas), cobertura e coletes de couro/militares.
