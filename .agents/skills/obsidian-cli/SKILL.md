@@ -21,6 +21,8 @@ Leia `AGENTS.md` antes de acessar o vault. Use a CLI oficial do Obsidian para co
 
 - Consulte `help` ou `help <comando>` para parâmetros antes de uma operação cuja sintaxe seja incerta.
 - Na CLI oficial, parâmetros usam `nome=valor`; valores com espaços precisam de aspas. Use `vault=<nome-ou-id>` como primeiro parâmetro quando houver risco de escolher o vault errado.
+- Sempre redirecione a entrada com `< /dev/null` no WSL para evitar que o wrapper `/init` trave esperando stdin.
+- **Evite passar textos longos no argumento `content="..."`**: `Obsidian.com` empacota a linha de comando em JSON para o Electron via socket. Se o texto for longo (> 1-2 KB), contiver aspas ou múltiplas linhas, o JSON é corrompido e trava o Obsidian com um modal de erro no Windows. Para textos longos, grave em arquivo temporário (`%TEMP%`) e use `obsidian eval` com `app.vault.modify` + `fs.readFileSync`, excluindo o temporário logo após.
 - Para nota conhecida, prefira `path=<caminho-exato-no-vault>`; `file=<nome>` faz resolução pelo nome e pode ser ambíguo. Não dependa da nota ativa para uma escrita.
 - Siga a ordem de fontes e as regras de autorização de `AGENTS.md`. Antes de gravar, leia a nota exata; depois, leia-a de volta e confira a diferença. Mantenha conteúdo do vault fora do repositório local.
 
