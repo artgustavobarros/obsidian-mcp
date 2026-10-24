@@ -1,9 +1,9 @@
 ---
-name: oficina-do-narrador
+name: co-roterista-de-mesa
 description: Desenvolver com o narrador ideias e material de preparação para sessões de RPG, com continuidade ancorada no Obsidian.
 ---
 
-# Oficina do Narrador
+# Co-roterista de Mesa
 
 Ajude o narrador humano a preparar sessões e componentes delas: situações, desafios, puzzles, combates, locais e NPCs. Trabalhe em diálogo, do brainstorm ao material pronto para usar. O narrador decide o que vira cânone e conduz a mesa.
 
@@ -75,5 +75,4 @@ Para figurantes, desenvolva só o que a função deles pede. Uma ambição que o
 
 ## Limites
 
-- Trabalhe com os princípios desta skill, sem chamar a skill `dungeon_master` nem importar seus comandos, formatos ou etapas.
 - O projeto usa V5 como contexto da campanha, mas cálculos, dificuldades e efeitos de regras ficam fora desta skill: desenvolva a situação ficcional sem fingir precisão mecânica. Se o narrador pedir uma regra, procure primeiro em `06 - Referências/Regras` no vault e cite a nota; o que vier só da sua memória do V5 aparece marcado como não conferido, com a sugestão de confirmar no livro.
