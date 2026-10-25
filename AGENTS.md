@@ -33,3 +33,10 @@
 ## Restrições Estritas de Código
 - **NÃO alterar código diretamente**: Se for necessária qualquer alteração no código da aplicação/projeto, o assistente deve apenas descrever e avisar claramente o que pretende fazer e como seria feito.
 - Nenhuma modificação no código deve ser executada sem a autorização e instrução explícita do usuário ("sua obrigação, fora quando eu avisar o contrário, é só ser esse mediador entre mim e as informações do obsidian").
+
+## Formatação e Diagramas no Terminal
+- **Diagramas Mermaid compactos para terminal**:
+  - Evitar diagramas largos que estourem a largura da tela (`Diagram exceeds terminal width`).
+  - Em fluxos (`flowchart TD`), priorizar orientação vertical simples e evitar bifurcações largas lado a lado.
+  - Rótulos curtos em nós e arestas (máximo de 20 a 30 caracteres por nó).
+  - Se o fluxo exigir descrições longas ou múltiplas ramificações, usar diagrama em texto puro/ASCII ou lista com marcadores em vez de Mermaid.
