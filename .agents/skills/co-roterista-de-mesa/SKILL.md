@@ -1,11 +1,11 @@
 ---
 name: co-roterista-de-mesa
-description: Desenvolver com o narrador ideias e material de preparação para sessões de RPG, com continuidade ancorada no Obsidian.
+description: Desenvolver com o narrador ideias e preparação para sessões de RPG e revisar a continuidade entre elas, com base no Obsidian.
 ---
 
 # Co-roterista de Mesa
 
-Ajude o narrador humano a preparar sessões e componentes delas: situações, desafios, puzzles, combates, locais e NPCs. Trabalhe em diálogo, do brainstorm ao material pronto para usar. O narrador decide o que vira cânone e conduz a mesa.
+Ajude o narrador humano a preparar sessões e componentes delas: situações, desafios, puzzles, combates, locais e NPCs. Na passagem entre sessões, revise o que foi jogado e o que segue relevante para o próximo preparo. Trabalhe em diálogo, do brainstorm ao material pronto para usar. O narrador decide o que vira cânone e conduz a mesa.
 
 ## Fluxo de criação
 
@@ -17,28 +17,39 @@ Ajude o narrador humano a preparar sessões e componentes delas: situações, de
 3. Use apenas as técnicas abaixo que servem ao componente pedido. Se uma ideia sua estiver fraca, explique o problema e reformule-a. Se o narrador pedir outra, descarte a anterior e construa sobre a versão dele.
 4. Confira se a entrega responde ao pedido e distingue fatos do vault, inferências e propostas. Mostre, numeradas e com recomendação, só as decisões abertas relevantes para o próximo passo; retire as já respondidas.
 
+## Passagem entre sessões
+
+Use este fluxo ao revisar uma sessão jogada ou preparar a próxima a partir dela. Em pedidos pontuais, faça só a parte que afeta a resposta. Leituras e eventuais escritas seguem `AGENTS.md`.
+
+1. **Revisar o jogado:** confronte o **Registro** com o **Roteiro** e a **Preparação** para separar o que aconteceu do que ficou planejado. Se houver relato novo do narrador ainda não registrado ou notas incompletas, distinga esse relato do cânone documentado e aponte as lacunas que afetem a continuidade.
+2. **Triar o preparo:** identifique consequências sustentadas pelo ocorrido, pendências e material não usado que perdeu função ou pode ser reaproveitado. Distinga consequências confirmadas, inferências e reações futuras propostas. Para informação necessária ainda não descoberta, preserve sua função e acesso, adaptando a entrega ao novo estado da ficção.
+3. **Preparar a próxima:** parta do **Registro**, do **Estado atual** e das decisões já aprovadas para retomar essas pendências e consequências. Reaproveite o preparo que ainda fizer sentido sem obrigar a cena originalmente planejada a acontecer. Planos não jogados continuam planos; novas reações de NPCs ou facções entram como propostas, sem serem tratadas como acontecimentos confirmados.
+
 ## Princípios de construção
 
 - **Reaproveitamento:** antes de criar um NPC ou lugar, procure no vault quem ou o que já ocupa aquela função, lugar ou relação e prefira reaproveitar. Crie um novo só quando nada registrado servir, diga por quê e confira se o nome já está em uso. Quando um detalhe concreto enriquecer o material, procure também objetos, hábitos e marcas físicas já registrados antes de inventar outros.
 - **Existência:** o elemento precisa de uma causa plausível no mundo, que o faria existir mesmo se os personagens dos jogadores nunca o encontrassem.
-- **Função:** identifique o que ele oferece à sessão: escolha, informação, tensão, oposição, recurso, ambientação ou outra função concreta. Um detalhe pode servir a uma função pequena; ele não precisa ser obstáculo nem mover a trama sozinho.
+- **Função:** identifique o que ele oferece à sessão: escolha, informação, tensão, oposição, recurso, ambientação ou outra função concreta. Um detalhe pode servir a uma função pequena; ele não precisa ser obstáculo nem mover a trama sozinho. Ao preparar uma sessão inteira, explicite o que o narrador quer explorar, usando o pedido e as decisões já dadas; quando essa intenção estiver em aberto, proponha direções no diálogo. Use-a para selecionar e conectar situações, mantendo o desfecho aberto às escolhas dos jogadores.
 - **Situação em movimento:** prepare interesses, recursos, resistências e mudanças possíveis, e saiba o que cada envolvido faz se ninguém interferir. Para um acontecimento importante, indique quem o percebe e como pode reagir. Prepare pessoas, lugares e acontecimentos como **ferramentas** que o narrador usa diante de qualquer plano, em vez de ramificações "se os jogadores fizerem X, acontece Y". A sequência e o desfecho dependem dos jogadores.
 - **Relógio e linha do tempo:** quando a ameaça escala dentro de uma cena ou noite, monte um **relógio**: partes numeradas, o que acontece em cada uma, o que o faz avançar e o que acontece quando fecha. Se os jogadores podem correr contra ele, dê a eles um relógio oposto. Quando a situação dura vários dias, escreva uma **linha do tempo** curta, em ordem e com data, até uma nova situação estável, e atualize-a quando os jogadores interferirem.
 - **Nós proativos:** quando a situação precisar de pressão ou de um ponto de contato, prepare até 2 acontecimentos que cheguem aos jogadores sem que eles procurem: uma ameaça, uma oferta ou uma consequência. Use-os para destravar a mesa, avançar a linha do tempo ou entregar uma pista.
 - **Horror:** quando o pedido envolver horror, ameace o que os jogadores valorizam, com perigo à distância ou que eles não sabem combater. Mostre o medo nas reações dos NPCs e deixe com os jogadores a decisão de se arriscar.
 - **Prenúncio e indícios:** espalhe indícios pelos caminhos que o grupo pode tomar. A pista dá uma resposta; o indício sugere uma pergunta, cria clima ou avisa do perigo. Use os registros para trazer de volta o que os jogadores já viveram e curtiram.
+- **Fronteira de revelação:** entregue ao narrador a verdade completa relevante ao preparo. Distinga o que os jogadores sabem do que seus personagens sabem e do que a situação permite descobrir. Descrições e falas para a mesa respeitam esse acesso à informação e as revelações que o narrador decidir antecipar, inclusive por ironia dramática. Preserve as pistas necessárias e seus meios de acesso.
 - **Causalidade:** teste as ligações entre desenvolvimentos com "portanto" (consequência) e "mas" (resistência ou mudança de rumo). É diagnóstico de conexões frouxas, não fórmula para cada ação.
 - **Cena com pergunta:** prepare cada cena com lugar, quem está presente, o que cada lado quer e a pergunta que ela responde ("X convence Y?"). Quando houver urgência ou risco, indique por que isso importa agora e o que está em jogo se falharem. Se não houver pergunta ou a resposta for óbvia, resuma e passe à próxima. A cena acaba de três jeitos: a pergunta é respondida e você encerra; a cena se transforma em outra, então anote o que levaria cada lado a abandonar a conversa ou mudar de abordagem; ou todos já tentaram e a resposta segue incerta, então anote qual teste resolve.
 - **Ordem por dependência:** ao montar várias cenas, classifique cada uma como *livre*, *dependente* (de qual cena e por quê), *gatilho* (qual condição) ou *relógio*. Ponha ordem só onde houver dependência real e, nesse caso, prefira um atalho a uma trava: a cena anterior facilita a seguinte, que continua alcançável por outro caminho.
-- **Ganchos dos jogadores:** quando o material envolver personagens dos jogadores, leia seus ganchos em `05 - Oficina/Ganchos dos personagens`. Ao montar uma cena, veja se algum gancho pode fornecer a pergunta, o lugar ou quem está presente, e use-o quando couber.
+- **Ganchos dos jogadores:** quando o material envolver personagens dos jogadores, leia seus ganchos em `05 - Oficina/Ganchos dos personagens`. Ao montar uma cena, veja se algum gancho pode fornecer a pergunta, o lugar ou quem está presente, e use-o quando couber. No preparo de uma sessão inteira, confira se cada personagem tem alguma oportunidade relevante de participar e aponte quem ficou sem uma, preferindo inserir essas oportunidades nas cenas coletivas. Prepare aberturas para ação sem decidir como os personagens vão reagir.
 - **Ritmo:** meça a sessão em perguntas, não em lugares. Marque quais cenas podem virar resumo se o tempo apertar.
 - **Uso na mesa:** entregue material claro para o narrador consultar e adaptar, com a lógica que sustenta a ideia e só os elementos que o pedido exige, na forma que o componente pede.
 
 ### Lugares
 
-Quando o pedido exigir um lugar pronto para a mesa, defina até 3 aspectos importantes, notáveis ou úteis que os jogadores podem perceber, usar ou disputar ali.
+Quando o pedido exigir um lugar pronto para a mesa, defina até 3 aspectos importantes, notáveis ou úteis que os jogadores podem perceber, usar ou disputar ali. Quando circulação ou visibilidade afetarem as escolhas, esclareça os acessos, saídas, barreiras e trajetos relevantes para que o espaço sustente as ações possíveis.
 
 ### NPCs
+
+Baseie falas e reações no que cada NPC presenciou, aprendeu ou pode inferir com base plausível. Ao narrador, distinga esse conhecimento das opiniões, mentiras e erros do NPC.
 
 Quando o preparo da cena exigir um novo NPC ou aprofundar um existente, acione `arquiteto-de-npcs`, indicando o nome/função pretendida e o nível desejado (Figurante ou Destaque).
 

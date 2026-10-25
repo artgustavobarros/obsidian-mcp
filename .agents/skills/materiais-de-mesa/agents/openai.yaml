@@ -1,0 +1,4 @@
+interface:
+  display_name: "Materiais de mesa"
+  short_description: "Handouts, mapas e áudio para sessões de RPG"
+  default_prompt: "Use $materiais-de-mesa para criar o material pedido com base no contexto da cena e na informação que os jogadores podem receber."
