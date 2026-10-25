@@ -20,8 +20,9 @@ Fornece ao narrador personagens de apoio (SPCs) rápidos, consistentes e prontos
    * Antes de inventar, busque no vault se já existe um NPC registrado ocupando a função ou relação desejada.
    * Se existir, apresente o existente para reaproveitamento.
    * Se for criar um novo, verifique colisão de nomes no vault.
-2. **Definição de Nível**:
-   * **Figurante**: Mook de balcão, guarda de passagem ou transeunte (3 linhas narrativas + parada mecânica).
+2. **Definição de Nível & Nomenclatura**:
+   * **Nomenclatura e Tom Verossímeis**: Os nomes e falas devem respeitar o contexto do cenário em que estiverem inseridos temporal e geopoliticamente, rejeitando estereótipos, caricaturas, exotizações e representações xenofóbicas. Construa os personagens como pessoas reais, complexas e dignas do seu contexto histórico.
+   * **Figurante**: Mook de balcão, guarda de passagem ou transeunte (sempre com **Nome e Idade**, 3 linhas narrativas + parada mecânica).
    * **Destaque**: Personagem com agência, ambição, conflito ou segredo (Universal Template Alexandrian + V5 SPC).
 3. **Composição Mecânica (Para todo NPC)**:
    * Declare a **Parada de Dados Padrão** (Físico, Social, Mental) — *obrigatório*.
@@ -35,7 +36,7 @@ Fornece ao narrador personagens de apoio (SPCs) rápidos, consistentes e prontos
 ## 2. Modelos de Saída
 
 ### Modelo A: Figurante
-* **[Nome] — [Função/Ocupação]**
+* **[Nome] ([Idade] anos) — [Função/Ocupação]**
   * **Visual**: [1 frase descritiva].
   * **Voz/Trejeito**: [tom de voz ou cacoete físico].
   * **Utilidade na cena**: [o que faz ou informa se ninguém intervir].

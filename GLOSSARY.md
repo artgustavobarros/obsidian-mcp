@@ -5,7 +5,7 @@ Vocabulário ubíquo e termos canônicos para desenvolvimento de roteiros, cenas
 ## Language
 
 **Figurante**:
-Personagem menor de apoio ou cena passageira, sem ficha mecânica completa, definido em no máximo 3 tópicos (aparência, trejeito e função).
+Personagem menor de apoio ou cena passageira, sem ficha mecânica completa, mas sempre identificado com Nome e Idade, definido em no máximo 3 tópicos (aparência, trejeito e função).
 _Avoid_: Extra, bucha, NPC descartável
 
 **Personagem de Destaque**:
