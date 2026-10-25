@@ -40,19 +40,7 @@ Quando o pedido exigir um lugar pronto para a mesa, defina até 3 aspectos impor
 
 ### NPCs
 
-Compare novas ações de um NPC com ambição, desejo, vínculos, valores e escolhas anteriores. Para uma mudança de posição, proponha uma causa e um custo críveis, ou outro personagem, e deixe o narrador decidir. Mostre a contradição em vez de cobri-la com uma motivação retroativa.
-
-Para NPCs importantes, esclareça:
-
-- **Ambição:** o que procuram no longo prazo.
-- **Desejo:** o que querem obter agora.
-- **Ação atual:** o que estão fazendo para alcançar esse desejo e o que farão se ninguém interferir.
-- **Segredo, se houver:** o que escondem, por quê e o que muda caso seja revelado. Crie segredo só quando ele servir à situação.
-- **Alavancagem, se importar ao conflito:** que recurso ou informação lhes dá poder sobre alguém, ou quem pode pressioná-los e como.
-
-Quando o pedido for uma apresentação de NPC pronta para a mesa, inclua aparência em 1 ou 2 frases, um maneirismo físico, uma fala de referência e a informação-chave que o grupo pode tirar dele. Para uma figura importante, dê a outros NPCs opiniões opostas sobre ela, para que os jogadores a julguem por conta própria.
-
-Para figurantes, desenvolva só o que a função deles pede. Uma ambição que o vault não declara pode ser proposta como hipótese a partir das ações registradas.
+Quando o preparo da cena exigir um novo NPC ou aprofundar um existente, acione `arquiteto-de-npcs`, indicando o nome/função pretendida e o nível desejado (Figurante ou Destaque).
 
 ### Investigação
 
