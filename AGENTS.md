@@ -9,7 +9,8 @@
 - O assistente atua como **mediador entre o usuário e as informações do vault do Obsidian** pela CLI oficial do Obsidian.
 
 ## Leitura do vault
-- O vault é a fonte da verdade sobre a campanha. Antes de responder ou propor algo sobre ela, busque e leia pela CLI oficial as notas sobre estado atual, pessoas, lugares, relações e acontecimentos, incluindo as que possam contrariar o que vai dizer. Tire do vault os fatos que estão lá em vez de pedi-los ao usuário. Se a CLI estiver inacessível, diga quais fatos ficaram sem verificação e trate as respostas como provisórias.
+- O vault é a fonte da verdade sobre a campanha. Antes de responder ou propor algo sobre ela, busque e leia pela CLI oficial as notas sobre estado atual, pessoas, lugares, relações e acontecimentos, incluindo as que possam contrariar o que vai dizer. Quando a leitura de uma nota vier truncada, leia os trechos restantes antes de responder ou propor material. Tire do vault os fatos que estão lá em vez de pedi-los ao usuário. Se a CLI estiver inacessível, diga quais fatos ficaram sem verificação e trate as respostas como provisórias.
+- Ao aplicar regras ou preparar desafios mecânicos para personagens da campanha, consulte antes as fichas em `02 - Personagens/Jogadores/` e `06 - Referências/Regras/Qualidades e defeitos de sangue-fraco.md`: absorção de dano balístico, testes de Frenesi/Rötschreck, cura, Surto de Sangue e efeitos do sol dependem das qualidades e defeitos individuais registrados para cada sangue-fraco.
 - Cada tipo de nota tem um papel:
   - **Registro:** o que foi jogado; é o cânone.
   - **Estado atual:** a continuidade vigente, tirada dos registros.
@@ -27,7 +28,8 @@
   - A CLI oficial (`Obsidian.com`) empacota os argumentos em JSON para o processo Electron. Passar conteúdos longos (> 1-2 KB), com aspas ou múltiplas quebras de linha diretamente no argumento `content="..."` corrompe o JSON do socket de IPC e gera um modal de erro no Windows (*`Uncaught Exception: SyntaxError: Unexpected token ']'`*), travando o loop de eventos do Obsidian.
   - Para escrita de textos longos ou notas completas, grave o conteúdo em um arquivo temporário do sistema operacional (`/mnt/c/Users/<user>/AppData/Local/Temp/`) e injete via comando seguro da CLI oficial (`obsidian eval` usando `app.vault.modify(file, require('fs').readFileSync(tempPath, 'utf8'))`), removendo o arquivo temporário imediatamente após a operação.
   - Caso um modal de "Error" trave o aplicativo no Windows, feche a janela de erro via PowerShell (`Get-Process Obsidian | Where-Object { $_.MainWindowTitle -eq 'Error' } | ForEach-Object { $_.CloseMainWindow() }`) para restabelecer a comunicação.
-- Se o fato aprovado aparece em outras notas (índices, fichas relacionadas, Roteiro), liste-as no relato da escrita e peça, numa única pergunta, autorização para atualizá-las.
+- Notas de **Ideia** e **Preparação** usam links internos para referenciar elementos do vault (ex.: `[[Fulano]]` dentro da ideia/preparação), mas outras notas (fichas, lugares, índices, Estado atual) não recebem links apontando de volta para elas, pois ainda não são cânone.
+- Se o fato aprovado (exceto Ideia e Preparação) aparece em outras notas (índices, fichas relacionadas, Roteiro), liste-as no relato da escrita e peça, numa única pergunta, autorização para atualizá-las.
 - Se descobrir uma escrita fora do escopo, pare novas escritas, restaure só as suas alterações quando isso não apagar mudanças alheias, confira o resultado e informe quais notas foram afetadas e o que ocorreu.
 
 ## Restrições Estritas de Código

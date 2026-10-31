@@ -31,6 +31,17 @@ description: Calcular e resolver mecânicas de Vampire: The Masquerade 5th Editi
 * Um personagem assume a **Liderança** e realiza a rolagem principal.
 * Cada aliado qualificado (com pelo menos 1 ponto na Perícia utilizada) soma **+1 dado bônus** à parada do líder (bônus máximo = Atributo relevante do líder).
 
+### Fluxo 4: Avanço de Relógios (Progresso e Perigo)
+Quando uma cena usar relógios (4, 6 ou 8 marcas), converta a margem do teste diretamente em marcas acompanhadas de um **sinal sensorial na ficção**:
+* **Relógio de Progresso (Objetivo do Grupo):**
+  * **Margem 0 (Sucesso Marginal):** +1 marca no progresso, mas +1 marca no relógio de perigo (ou custo imediato).
+  * **Margem +1 (Sucesso Limpo):** +1 marca limpa.
+  * **Margem +2 ou mais / Crítico:** +2 marcas (ou +3 se abordagem tiver grande alavancagem ficcional).
+  * **Crítico Caótico:** +2 marcas no progresso, mas dispara complicação da Besta ou +2 marcas no perigo.
+* **Relógio de Perigo / Alerta (Ameaça ou Contagem Regressiva):**
+  * **Falha Simples ou Perda de Tempo Ficcional:** +1 marca no perigo.
+  * **Falha Bestial:** +2 marcas no perigo (além da Compulsão ou custo da Besta).
+
 ---
 
 ## 2. A Economia do Sangue (Rouse, Fome & Potência)
@@ -94,7 +105,8 @@ description: Calcular e resolver mecânicas de Vampire: The Masquerade 5th Editi
 ## 4. Combate, Tipos de Dano e Empalamento
 
 ### Absorção Vampírica (A Regra de Ouro)
-* **Dano Superficial em Vampiros:** Armas de fogo, socos, pontapés, facadas e clavas causam **Dano Superficial**.
+* **Sangue-Fracos (Thin-Bloods):** Consulte as qualidades e defeitos do personagem antes de aplicar regras de vampiros plenos. Sem *Resiliência Vampírica*, o sangue-fraco sofre dano de armas de fogo e lâminas como mortal (**Dano Agravado**); com *Fragilidade Mortal*, recupera-se como mortal sem curar por Cheque de Rouse; e só realiza testes de Frenesi/Rötschreck se possuir *Temperamento Bestial* ou *Heliofobia*.
+* **Dano Superficial em Vampiros Plenos (ou com Resiliência Vampírica):** Armas de fogo, socos, pontapés, facadas e clavas causam **Dano Superficial**.
 * **Cálculo:** Todo dano superficial sofrido por vampiros é **DIVIDIDO POR 2 (arredondado para cima)** após a absorção de sucessos líquidos.
   * *Exemplo:* Um tiro de fuzil causa 5 de dano superficial líquido $\rightarrow$ o vampiro anota apenas 3 caixas de dano superficial na ficha.
 * **Dano Agravado Direto:**

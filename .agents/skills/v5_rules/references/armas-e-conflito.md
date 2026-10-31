@@ -48,3 +48,19 @@ Tabela tática de armamento de época (década de 1930 / Sertão Alagoano) e reg
 * **Colete Balístico Militar (Experimental / Raro em 1936):**
   * Proteção: **2 pontos**.
   * Absorve 2 pontos de dano balístico direto.
+
+---
+
+## 4. Veículos de Época (1936) & Estágios de Avaria
+
+Para perseguições e tiroteios em estradas de terra (automóveis anos 1930, camionetes de carga e caminhões de volante):
+
+1. **Estágio 1 — Intacto:**
+   * Velocidade normal; lataria e bloco do motor fornecem **Cobertura Média (+2 dados na defesa dos ocupantes; absorve até 4 pontos de dano)**.
+2. **Estágio 2 — Avariado (Pneu furado, radiador vazando ou direção puxando):**
+   * **Gatilho:** Tiro direcionado no pneu/motor (`Dif. +1`, 3+ de dano líquido) ou colisão lateral/raspão em obstáculo.
+   * **Efeito:** **-2 dados** em `Condução`. Se o radiador for furado, o motor ferve e trava após **3 rodadas/quilômetros**.
+   * **Reparo em campo:** 5 minutos parado + `Raciocínio/Destreza + Ofícios (Dif. 2)`.
+3. **Estágio 3 — Batido / Inutilizado (Eixo partido, motor fundido ou capotamento):**
+   * **Gatilho:** Falha crítica/total em `Condução` em velocidade, perda de controle sem recuperação por passageiro ou segunda avaria grave.
+   * **Impacto:** O veículo para imediatamente (podendo continuar servindo como **Cobertura Média** fixa na pista). Ocupantes sofrem **4 pontos de Dano Contuso Superficial** (reduzido em 1 por sucesso em `Destreza + Atletismo Dif. 2`; dividido por 2 para quem tiver *Resiliência Vampírica*).
