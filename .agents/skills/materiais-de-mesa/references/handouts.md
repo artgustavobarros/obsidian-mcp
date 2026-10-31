@@ -14,7 +14,7 @@ Entregue texto pronto quando o pedido for textual. Diagramação, envelhecimento
 
 ## Prompts dos locais da sessão
 
-Ao preparar handouts para uma sessão, inclua também um prompt visual pronto para cada local em que serão usados, sem depender de um pedido separado. Reaproveite um único prompt quando vários handouts compartilharem o local. Entregue os prompts junto do material de apoio da sessão, separados do texto que os jogadores recebem.
+Quando o pedido for o pacote de handouts de uma sessão inteira (ou quando o narrador solicitar apoio visual para o local da peça), inclua também um prompt visual pronto para cada local correspondente. Reaproveite um único prompt quando vários handouts compartilharem o local. Entregue os prompts junto do material de apoio da sessão, separados do texto que os jogadores recebem.
 
 Parta das descrições da sessão e das notas do lugar, consultadas pela CLI oficial. Monte a **mise-en-scène** especificando enquadramento, disposição dos objetos, materiais e iluminação, e inclua uma nota curta de **sinestesia** (cruzando cheiro, temperatura, som ou textura) para o narrador ambientar o local na mesa. Para esta campanha, situe a imagem no sertão alagoano de 1936 e confira a coerência histórica da arquitetura, dos objetos, da tecnologia e do vestuário conforme a classe social e o local representados. Diferencie detalhes estabelecidos de propostas visuais e preserve segredos ainda não descobertos. Quando o uso pedir mapa, aplique também [Mapas](mapas.md) para acessos, circulação e visibilidade.
 

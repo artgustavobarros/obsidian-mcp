@@ -9,7 +9,8 @@ description: Calcular e resolver mecânicas de Vampire: The Masquerade 5th Editi
 
 ### Fluxo 1: Teste Simples (Atributo + Perícia vs. Dificuldade)
 1. **Definir Parada:** `[Atributo] + [Perícia]`. Substitua dados normais por **Dados de Fome** até o nível atual de Fome do personagem (1 a 5).
-2. **Definir Dificuldade:**
+2. **Definir Dificuldade (e Regra de *Pegar Metade / Take Half*):**
+   * Para tarefas fora de conflito direto onde metade da parada ($\lfloor Parada / 2 \rfloor$) for igual ou superior à Dificuldade, recomende **Pegar Metade (Take Half)** ou sucesso automático para evitar rolagens triviais e desgaste artificial dos Dados de Fome.
    * **Dif. 1 (Rotineiro):** Ação básica sob calma (arrombar trinco comum sem pressa).
    * **Dif. 2 (Médio / Padrão):** Homem comum sob estresse (dirigir na chuva, mentir para sentinela desatenta).
    * **Dif. 3 (Desafiador / Profissional):** Exige treinamento sério (notar veneno sutil, resistir a interrogador experiente).
@@ -32,15 +33,15 @@ description: Calcular e resolver mecânicas de Vampire: The Masquerade 5th Editi
 * Cada aliado qualificado (com pelo menos 1 ponto na Perícia utilizada) soma **+1 dado bônus** à parada do líder (bônus máximo = Atributo relevante do líder).
 
 ### Fluxo 4: Avanço de Relógios (Progresso e Perigo)
-Quando uma cena usar relógios (4, 6 ou 8 marcas), converta a margem do teste diretamente em marcas acompanhadas de um **sinal sensorial na ficção**:
+Quando uma cena usar relógios (4, 6 ou 8 marcas), converta a margem do teste diretamente em marcas acompanhadas de um **sinal sensorial na ficção**, evitando empilhar punições em espiral da morte:
 * **Relógio de Progresso (Objetivo do Grupo):**
-  * **Margem 0 (Sucesso Marginal):** +1 marca no progresso, mas +1 marca no relógio de perigo (ou custo imediato).
+  * **Margem 0 (Sucesso Marginal):** escolha **OU** avanço com atrito menor na cena (+1 marca no progresso com custo local/tempo) **OU** +1 marca no progresso e +1 marca no relógio de perigo.
   * **Margem +1 (Sucesso Limpo):** +1 marca limpa.
   * **Margem +2 ou mais / Crítico:** +2 marcas (ou +3 se abordagem tiver grande alavancagem ficcional).
-  * **Crítico Caótico:** +2 marcas no progresso, mas dispara complicação da Besta ou +2 marcas no perigo.
+  * **Crítico Caótico:** +2 marcas no progresso, mas dispara complicação da Besta (ou +1/+2 marcas no perigo quando o barulho/método brutal alertar a ameaça).
 * **Relógio de Perigo / Alerta (Ameaça ou Contagem Regressiva):**
   * **Falha Simples ou Perda de Tempo Ficcional:** +1 marca no perigo.
-  * **Falha Bestial:** +2 marcas no perigo (além da Compulsão ou custo da Besta).
+  * **Falha Bestial:** aplica a **Compulsão** ativa na cena como custo principal (some +1 marca no perigo apenas se a falha gerar barulho ou alerta direto, nunca +2 automático acumulado com a Compulsão).
 
 ---
 
@@ -95,10 +96,11 @@ Quando uma cena usar relógios (4, 6 ou 8 marcas), converta a margem do teste di
 ### Crítico Caótico (Messy Critical)
 * **Gatilho:** Vitória com par de 10s onde pelo menos um dos 10s está em um **Dado de Fome**.
 * **Efeito:** O personagem obtém sucesso absoluto no teste, mas a Besta conduz a vitória com métodos brutais e desumanos.
-* **O Narrador escolhe uma consequência:**
+* **O Narrador escolhe uma consequência compatível com a natureza da ação:**
   1. *Quebra da Máscara:* Exibição ostensiva de presas, força grotesca ou sangue na frente de mortais (+Frestas imediatas).
   2. *Alienação Social:* O alvo ou testemunhas cooperam por puro pavor visceral, mas juram vingança ou denunciam a coterie.
   3. *Dano Colateral:* Destruição do ambiente, perda de uma pista delicada ou ferimento acidental em um aliado.
+  4. *Distorção Mental, Obsessão ou Perda de Tempo (Testes Mentais, Acadêmicos e Sutis):* A Besta contamina a leitura (a pista vem filtrada pela paranoia, fome ou fúria do vampiro), consome tempo precioso em fixação obsessiva ou inutiliza a fonte consultada após extrair a informação, sem forçar violência física absurda.
 
 ---
 
@@ -136,7 +138,7 @@ Quando uma cena usar relógios (4, 6 ou 8 marcas), converta a margem do teste di
 |---|---|---|
 | *"O jogador descreveu bem a ação, então na Falha Bestial vou dar só um susto ou tensão leve."* | A Besta **sempre** cobra um tributo mecânico ou narrativo severo. | Aplique obrigatoriamente uma **Compulsão** (Geral ou de Clã) ou uma perda grave de recurso/reputação. |
 | *"Tiro de fuzil ou revólver no peito causa Dano Agravado porque é arma militar pesada."* | Para vampiros, armas de fogo causam **Dano Superficial**. | Dano Superficial em vampiros é sempre **dividido por 2** (arredondado para cima). Agravado só com fogo, sol ou dentes/garras sobrenaturais. |
-| *"O jogador tirou par de 10s e teve muitos sucessos, então o 10 no dado de fome não importa."* | Um 10 em dado de fome converte o teste em **Crítico Caótico (Messy Critical)**. | O objetivo é alcançado, mas a Besta assume a autoria: quebra da Máscara, brutalidade excessiva ou perda de vantagem social. |
+| *"O jogador tirou par de 10s e teve muitos sucessos, então o 10 no dado de fome não importa."* | Um 10 em dado de fome converte o teste em **Crítico Caótico (Messy Critical)**. | O objetivo é alcançado, mas a Besta assume a autoria: quebra da Máscara, brutalidade excessiva, perda de vantagem social ou (em testes mentais/sutis) distorção paranoica, perda de tempo ou dano à fonte. |
 | *"Vou narrar o que o personagem do jogador sente e decide fazer após o teste."* | Agência do jogador é intocável. | Entregue a provocação mecânica/da Besta e devolva a escolha da ação ao jogador. |
 
 ---
