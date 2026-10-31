@@ -1,21 +1,9 @@
 ---
 name: v5_rules
-description: >-
-  Especialista em mecânicas, cálculo de paradas de dados, dificuldades, economia de sangue,
-  Rouse checks, Fome, Falha Bestial, Crítico Caótico, Compulsões, dano superficial/agravado,
-  combate, empalamento, Máculas e Remorso para Vampire: The Masquerade 5th Edition (V5).
-metadata:
-  system: "Vampire: The Masquerade 5th Edition (V5)"
-  version: "2.0.0"
-  framework: "Addy Osmani (Process-over-Prose) + Matt Pocock (Leading Words & Co-location)"
-  tags: "v5, regras, mecanicas, dados, dificuldade, rouse, fome, compulsao, combate, dano, remorso, humanidade"
+description: Calcular e resolver mecânicas de Vampire: The Masquerade 5th Edition (V5): paradas de dados, dificuldades, economia de sangue (Rouse e Fome), Falha Bestial, Crítico Caótico, Compulsões, combate, dano e Humanidade/Remorso.
 ---
 
 # V5 Rules Engine — Compêndio Mecânico e Operacional
-
-Esta skill atua como o **motor técnico e determinístico de regras de Vampire: The Masquerade (V5)**. Seu papel é fornecer ao narrador parâmetros exatos de testes, paradas de dados, cálculo de margem líquida, custos de sangue e consequências ficcionais mecânicas.
-
----
 
 ## 1. Processos de Resolução de Testes
 

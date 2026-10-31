@@ -1,25 +1,14 @@
 ---
 name: arquiteto-de-npcs
-description: Concepção, ficha narrativa e paradas mecânicas de NPCs/SPCs para V5 com continuidade ancorada no Obsidian. Use para criar figurantes, contatos, antagonistas ou aprofundar fichas de elenco.
-metadata:
-  system: "Vampire: The Masquerade 5th Edition (V5)"
-  version: "1.0.0"
-  framework: "Addy Osmani (Process-over-Prose) + Matt Pocock (Leading Words & Co-location)"
-  tags: "npc, spc, figurante, elenco, ficha, antagonista, v5, obsidian"
+description: Criar e aprofundar fichas narrativas e paradas mecânicas de NPCs/SPCs para V5 com continuidade no Obsidian (figurantes, contatos, aliados e antagonistas).
 ---
 
-# Arquiteto de NPCs — Criação e Paradas de Antagonistas V5
-
-Fornece ao narrador personagens de apoio (SPCs) rápidos, consistentes e prontos para uso em cena, integrados à continuidade do vault do Obsidian e ao sistema V5.
-
----
+# Arquiteto de NPCs (SPCs V5)
 
 ## 1. Fluxo de Execução
 
 1. **Sondagem no Vault (CLI)**:
-   * Antes de inventar, busque no vault se já existe um NPC registrado ocupando a função ou relação desejada.
-   * Se existir, apresente o existente para reaproveitamento.
-   * Se for criar um novo, verifique colisão de nomes no vault.
+   * Procure no vault se já existe um NPC registrado ocupando a função ou relação desejada; se existir, apresente-o para reaproveitamento. Se criar um novo, confira colisão de nomes.
 2. **Definição de Nível & Nomenclatura**:
    * **Nomenclatura e Tom Verossímeis**: Os nomes e falas devem respeitar o contexto do cenário em que estiverem inseridos temporal e geopoliticamente, rejeitando estereótipos, caricaturas, exotizações e representações xenofóbicas. Construa os personagens como pessoas reais, complexas e dignas do seu contexto histórico.
    * **Figurante**: Mook de balcão, guarda de passagem ou transeunte (sempre com **Nome e Idade**, 3 linhas narrativas + parada mecânica).
@@ -28,8 +17,7 @@ Fornece ao narrador personagens de apoio (SPCs) rápidos, consistentes e prontos
    * Declare a **Parada de Dados Padrão** (Físico, Social, Mental) — *obrigatório*.
    * Acrescente **Atributos Secundários**, **Paradas Excepcionais** e **Especial** conforme a relevância do NPC na cena.
 4. **Entrega e Trava de Escrita**:
-   * Entregue a proposta na conversa.
-   * **Não grave no vault** sem o comando explícito: *"registre isso no Obsidian"*.
+   * Entregue a proposta na conversa e siga `AGENTS.md` para qualquer leitura ou escrita no vault.
 
 ---
 
@@ -44,10 +32,11 @@ Fornece ao narrador personagens de apoio (SPCs) rápidos, consistentes e prontos
 
 ### Modelo B: Personagem de Destaque
 ### [Nome] ([Conceito / Clã / Papel])
-- **Aparência**: 1 a 2 frases prontas para narrar a primeira impressão.
+- **Aparência**: 1 a 2 frases prontas para narrar a primeira impressão, usando **sinestesia** (cruzar visual, cheiro, temperatura ou textura) quando reforçar a presença.
 - **Voz & Trejeito**: Tom vocal, postura corporal e cacoete marcante.
-- **Fala de Referência**: *"Frase típica entre aspas para calibrar a atuação"*.
-- **Ambição & Desejo**: O que busca no longo prazo vs o que quer nesta noite.
+- **Fala de Referência**: *"Frase típica entre aspas para calibrar a atuação"* (use cadência ou **quiasmo** — espelhamento A-B/B-A — para líderes, pregadores ou Anciões).
+- **Ambição & Desejo**: O que busca no longo prazo vs. o que quer nesta noite.
+- **Fachada, Mentira & Arco**: A máscara social que exibe, **a mentira em que acredita** para justificar seus atos e a direção provável sob pressão (*queda*, *mudança* ou *convicção fixa*).
 - **Segredo Portátil / Alavancagem**: Pista que carrega ou recurso para pressioná-lo.
 - **Mecânica (SPC)**:
   - **Parada de Dados Padrão**: Físico X, Social Y, Mental Z *(obrigatório)*.
@@ -60,4 +49,4 @@ Fornece ao narrador personagens de apoio (SPCs) rápidos, consistentes e prontos
 ## 3. Ponteiros de Contexto
 
 * **Cálculo de Regras e Combate**: Delegue para `v5_rules` para resolver paradas, dificuldades, Fome e disputa de margem líquida.
-* **Cenas, Relógios e Tramas**: Delegue para `co-roterista-de-mesa` para encaixar o NPC em perguntas de cena e nós proativos.
+* **Cenas, Relógios e Tramas**: Se foi acionado pela `co-roterista-de-mesa`, devolva a ficha pronta e encerre; acione `co-roterista-de-mesa` apenas quando o pedido direto ao `arquiteto-de-npcs` também solicitar cenas, relógios ou nós proativos.
